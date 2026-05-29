@@ -1,0 +1,53 @@
+# ====================
+# Fichiers spécifiques à NetBeans
+# ====================
+nbproject/
+nb-configuration.xml
+build/
+dist/
+target/
+*.swp
+*.lock
+
+# ====================
+# Fichiers spécifiques à VS Code
+# ====================
+.vscode/
+.idea/
+*.iml
+
+# ====================
+# Fichiers spécifiques à Node.js (backend)
+# ====================
+server/node_modules/
+server/package-lock.json
+server/.env
+server/logs/
+*.log
+
+# ====================
+# Fichiers spécifiques à Java (frontend)
+# ====================
+client/target/
+client/.classpath
+client/.project
+client/.settings/
+client/nbactions.xml
+client/nb-configuration.xml
+
+# ====================
+# Fichiers système et temporaires
+# ====================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ====================
+# Fichiers de configuration personnels
+# ====================
+.env
+.env.local
+*.local
